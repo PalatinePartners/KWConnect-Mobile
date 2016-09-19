@@ -1,0 +1,348 @@
+<ion-header>
+    <ion-navbar>
+        <div class="title-logo"></div>
+        <ion-buttons start>
+            <button><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+        <ion-buttons end>
+            <button><ion-icon name="search"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<!-- Tabs Start -->
+<section id="calender-tabs">
+  <div class="wrapper2">
+    <ul class="c-tabs">
+      <li class="active"><a class="calender" href="#calenders"><span>Calender</span></a></li>
+      <li><a class="reports" href="#reports"><span>My Reports</span></a></li>
+      <li><a class="training" href="#training"><span>My Training</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="calenders" class="calendermob">
+  <div class="wrapper2">
+    <div class="filters">
+      <div class="event-list">
+              
+                <div class="filtered">
+                
+                  <a href="#" class="filtermenu">Filter Calendar</a>
+                
+                </div>
+                  
+        <ul>
+          <li>
+            <label class="control control--checkbox"> <span></span> Select All
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="yellow"></span> KWRI Learning Center
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="light-green"></span> All AMC Events
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="grey"></span> Commercial
+              <input type="checkbox"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="red"></span> My Market Center
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>   
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="green"></span> KWRI Team
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="dark-blue"></span> All Regional Events
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="green1"></span> Kids Can
+              <input type="checkbox"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          <li>
+            <label class="control control--checkbox"> <span class="sky-blue"></span> My Region
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="purple"></span> MAPS
+              <input type="checkbox" checked="checked"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="green1"></span> Farm & Ranch
+              <input type="checkbox"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+          <li>
+            <label class="control control--checkbox"> <span class="green2"></span> Luxury Homes
+              <input type="checkbox"/>
+              <span class="control__indicator"></span>
+            </label>
+          </li>
+          
+        </ul>     
+      </div>
+      <div class="search-area">
+        <form>
+          <input type="search" placeholder="Search Calendar (Date, Topic, Location)">
+          <input type="submit" value="">
+        </form>
+        <span><a href="#"><img src="build/images/calender/printer-icon.png" alt="" /></a></span>
+      </div>
+    </div>
+    
+    <div id='calendar'></div>
+    
+        <div class="calmobile">
+          
+            <div class="weekbutton fc">
+              
+                <button class="fc-prev-button fc-button fc-state-default" type="button"><span class="fc-icon fc-icon-left-single-arrow"></span></button>
+                
+                <h2>June 1 - 8, 2016</h2>
+                
+                <button class="fc-next-button fc-button fc-state-default" type="button"><span class="fc-icon fc-icon-right-single-arrow"></span></button>
+            
+            </div>
+          
+            <div class="weeeklist">
+              
+                <div class="event">
+                  
+                    <h3><span>1</span> MON</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>2</span> Tues</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>3</span> Wed</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>4</span> Thur</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>5</span> Fri</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>6</span> Sat</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+                
+                <div class="event">
+                  
+                    <h3><span>7</span> Sun</h3>
+                    
+                    <span class="allday">All Day Event</span>
+                  
+                    <div class="eventdetails"></div>
+                    
+                </div>
+            
+            </div>
+            
+        </div>
+        
+    <button type="button" class="fc-add-event fc-button fc-state-default fc-corner-right">New Event</button>
+    <div class="lists">
+      <button type="button" class="fc-grid fc-button fc-state-default fc-corner-left">Grid</button>
+      <button type="button" class="fc-list fc-button fc-state-default fc-corner-right">List</button>
+    </div>    
+  </div>
+</section>
+<!--  Middle Part Start  -->
+
+<section id="middle-part2" class="cp">
+ <div class="wrapper2">
+    <div class="upcoming-courses">
+      <div class="title">
+      <h3 class="upcoming-course-title">Upcoming Courses</h3>
+      <span><a href="#">KWU Courses</a></span>
+    </div>
+       
+       <div class="clear"></div>
+       <ul>
+        <li>
+         <div class="box-img">
+           <img src="build/images/upcoming-course/img1.png" alt="">
+           <div class="content">
+           <div class="course-date"><h4>AUG <span>25</span></h4></div>
+            <div class="text-area">
+              <ul>
+                <li>3 DAYS</li>
+                 <li>2 SEATS LEFT</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div class="details">
+                <h5><a href="#">Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h5>
+          </div>
+        </li>
+        <li>
+         <div class="box-img">
+          <img src="build/images/upcoming-course/img2.png" alt="">
+          <div class="content">
+            <div class="course-date"><h4>jul <span>17</span></h4></div>
+            <div class="text-area">
+               <ul>
+                 <li>12 DAYS</li>
+                 <li>21 SEATS LEFT</li>
+               </ul>
+            </div>
+          </div>
+         </div>
+         <div class="details">
+                <h5><a href="#">Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h5>
+          </div>
+        </li>
+        
+        <li>
+         <div class="box-img">
+          <img src="build/images/upcoming-course/img3.png" alt="">
+          <div class="content">
+            <div class="course-date"><h4>sep <span>22</span></h4></div>
+            <div class="text-area">
+              <ul>
+                <li>24 DAYS</li>
+                <li>30 SEATS LEFT</li>              
+               </ul>
+            </div>
+          </div>
+         </div>
+         <div class="details">
+                <h5><a href="#">Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h5>
+          </div>
+        </li>
+        
+        <li>
+         <div class="box-img">
+          <img src="build/images/upcoming-course/img3.png" alt="">
+          <div class="content">
+            <div class="course-date"><h4>jan <span>17</span></h4></div>
+            <div class="text-area">
+               <ul>
+                 <li>1 MONTH</li>
+                 <li>120 SEATS LEFT</li>
+                </ul>
+            </div>
+          </div>
+         </div>
+         <div class="details">
+                <h5><a href="#">Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h5>
+          </div>
+        </li>
+        
+        <li>
+         <div class="box-img">
+          <img src="build/images/upcoming-course/img3.png" alt="">
+          <div class="content">
+            <div class="course-date"><h4>nov <span>30</span></h4></div>
+            <div class="text-area">
+               <ul>
+                 <li>2 MONTHS</li>
+                 <li>45 SEATS LEFT</li>
+                </ul>
+            </div>
+          </div>
+         </div>
+         <div class="details">
+                <h5><a href="#">Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h5>
+          </div>
+        </li>
+        
+        <li>
+         <div class="box-img view-more">
+           <img src="build/images/upcoming-course/calender-img.png" alt="">
+           
+           <div class="details more-course"><h5><a href="#">VIEW 32 MORE COURSES<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </h5></div>
+         </div>
+        </li>
+       
+       </ul>
+    
+     </div>
+   <!--end upcoming courses-->
+    
+ </div>
+
+</section>
+
+</ion-content>

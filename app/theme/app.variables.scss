@@ -1,0 +1,53 @@
+// http://ionicframework.com/docs/v2/theming/
+
+// Ionic Shared Functions
+// --------------------------------------------------
+// Makes Ionic Sass functions available to your App
+
+@import 'globals.core';
+
+// App Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files. Setting
+// variables before Ionic's Sass will use these variables rather than
+// Ionic's default Sass variable values. App Shared Sass imports belong
+// in the app.core.scss file and not this file. Sass variables specific
+// to the mode belong in either the app.ios.scss or app.md.scss files.
+
+
+// App Shared Color Variables
+// --------------------------------------------------
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+// Both iOS and MD colors can be further customized if colors
+// are different per mode.
+
+$colors: (
+    primary:    	#00C5CD,
+    secondary:  	#006D6D,
+    danger:     	#F53D3D,
+    light:      	#F4F4F4,
+    dark:       	#222,
+    favorite:   	#69BB7B,
+    error:      	#DC143C,
+    brandPrimary: 	#E43726,
+    brandSecondary: #192B50,
+);
+
+$text-color: #6B706D;
+$background-color: #F0F0F1;
+$radio-color: #3EA868;
+$item-border-color: #C7C7C7;
+
+@mixin radial-gradient($from, $to) {
+	background: -moz-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $from), color-stop(100%, $to));
+	background: -webkit-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -o-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -ms-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: radial-gradient(center, circle cover, $from 0%, $to 100%);
+    /*background-color: $from;*/
+}
